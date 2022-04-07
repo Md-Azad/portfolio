@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #E4E9BE;
 }
 
 h1{
@@ -22,8 +23,12 @@ h1{
    
     
 }
-#hire-btn{
-    background: rgb(9, 90, 182);
-    color:coral;
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
     border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    
 }
