@@ -2,27 +2,35 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E4E9BE;
 }
+section{
+    height: 500px;
+    padding-bottom: 30px;
+}
 
 h1{
     font-size: 50px;
+}
+p{
+    color:dimgray;
 }
 .name-highlight{
     color: orange;
 }
 
-.first-section{
+.half-width{
     width: 40%;
     float: left;
     padding-left: 7%;
     margin-left: 2%;
-}
-.first-section img{
-    border-radius: 50%;
-    height: 550px;
-    padding-top: 40px;
-   
     
 }
+.half-width img{
+    padding-top: 100px;
+    height: 600px;
+    width: 600px;
+    
+}
+
 .hire-btn{
     text-decoration: none;
     padding: 10px 20px;
@@ -32,3 +40,10 @@ h1{
     color: white;
     
 }
+
+#text{
+    padding-top: 150px;
+}
+
+
+
